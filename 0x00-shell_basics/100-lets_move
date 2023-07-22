@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 mv [[:upper:]]* /tmp/u
+=======
+mv [[:upper:]]* /tmp/u/
+>>>>>>> 892247c4e8ccc24c846676b0a0c08de587d1a7c0

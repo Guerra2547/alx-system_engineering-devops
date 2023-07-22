@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 find -type f -name "*.gif" -printf "%f\n" | rev | cut -d "." -f 2- | rev | LC_ALL=C sort -f
+=======
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+>>>>>>> 892247c4e8ccc24c846676b0a0c08de587d1a7c0
